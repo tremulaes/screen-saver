@@ -1,0 +1,25 @@
+{
+  "name": "coolScreenSaver",
+  "version": "1.0.0",
+  "description": "Cool screen savers.",
+  "author": "Chris Singer",
+  "license": "All rights reserved",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tremulaes/coolScreenSaver"
+  },
+  "keywords": [
+    "screen saver",
+    "screensaver"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/start.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
